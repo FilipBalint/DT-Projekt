@@ -1,0 +1,211 @@
+Customers
+{
+"first_name":"Filip",
+"last_name": "Balint",
+"age": "22",
+"gender": "male",
+"email": "asdasada22@gmail.com",
+"phone": "+421902155782",
+"fax": "fax@fax.com",
+"adress":{
+	"city":"Surany",
+	"street":"Majakova 22",
+	"postal_code":"94201",
+	"region":"NZ",
+	"state":"Slovensko"
+	},
+
+"reviews":[{
+	"product_id":"2",
+	"rating":"4.2",
+	"review_text":"Super",
+	"review_date":"16/08/2017",
+		}]
+}
+
+Orders
+{
+"segment":{
+	"segment_id":"3",
+	"description":"descrip"
+	},
+"ship_mode":{
+	"shipMode_id":"1",
+	"description":"first_class"
+	},
+
+"order_date":"12/07/2017",
+"order_date":"13/07/2017",
+"order_details":{
+	"order_status":"Fullfilled",
+	"total_price":"22.80",
+	"items":[{
+		"quantity":"2",
+		"unit_price":"11.40",
+		"discount":"0.0",
+		"tax":"0.0",
+		}]
+	}
+
+Products
+{
+"product_name":"shower head",
+"product_code": "12335",
+"description":"clean head"
+"unit_price":"11.40",
+"units_in_stock":"14",
+"supplier":{
+	"supplier_id":"5",
+	"company_name":"Cleaners",
+	"phone": "+421904455782",
+	"email": "cleanersro@gmail.com",
+	"fax": "cleanersfax",
+	},
+"category":[{
+	"category_id":"2",
+	"category_name":"home",
+	"sub_category":"bathroom"
+	}]
+}
+
+___________________________________________________________________________________________________________________________________________
+
+Customers
+{
+    "first_name":"John",
+    "last_name": "Doe",
+    "age": "30",
+    "gender": "male",
+    "email": "johndoe@gmail.com",
+    "phone": "+123456789",
+    "fax": "fax@fax.com",
+    "adress":{
+        "city":"New York",
+        "street":"123 Main Street",
+        "postal_code":"10001",
+        "region":"NY",
+        "state":"USA"
+    },
+    "reviews":[{
+        "product_id":"1",
+        "rating":"4.5",
+        "review_text":"Great product!",
+        "review_date":"2024-05-30"
+    }]
+}
+
+Orders
+{
+    "segment":{
+        "segment_id":"2",
+        "description":"description"
+    },
+    "ship_mode":{
+        "shipMode_id":"2",
+        "description":"second_class"
+    },
+    "order_date":"2024-05-30",
+    "order_details":{
+        "order_status":"Pending",
+        "total_price":"50.20",
+        "items":[{
+            "quantity":"3",
+            "unit_price":"15.40",
+            "discount":"0.0",
+            "tax":"0.0"
+        }]
+    }
+}
+
+Products
+{
+"product_name": "head towel",
+    "product_code": "54321",
+    "description": "soft and absorbent towel",
+    "unit_price": 9.99,
+    "units_in_stock": 100,
+    "supplier": {
+      "supplier_id": "7",
+      "company_name": "Towel Emporium",
+      "phone": "+123456789",
+      "email": "info@towel-emporium.com",
+      "fax": "fax@towel-emporium.com"
+    },
+    "category":[{
+	"category_id":"2",
+	"category_name":"home",
+	"sub_category":"bathroom"
+	}]
+}
+
+___________________________________________________________________________________________________________________________________________
+
+Customers
+{
+   "first_name": "John",
+  "last_name": "Smith",
+  "age": 30,
+  "gender": "male",
+  "email": "johnsmith@gmail.com",
+  "phone": "+1234567890",
+  "fax": "fax@fax.com",
+  "adress": {
+    "city": "New York",
+    "street": "Broadway 123",
+    "postal_code": "10001",
+    "region": "NY",
+    "state": "USA"
+  },
+  "reviews": [
+    {
+      "product_id": "1",
+      "rating": "5.0",
+      "review_text": "Excellent product!",
+      "review_date": "2024-06-01"
+    }]
+}
+
+Orders
+{
+    "segment": {
+    "segment_id": "4",
+    "description": "premium"
+  },
+  "ship_mode": {
+    "shipMode_id": "2",
+    "description": "express"
+  },
+  "order_date": "2024-06-01",
+  "order_details": {
+    "order_status": "Shipped",
+    "total_price": "45.90",
+    "items": [
+      {
+        "quantity": "3",
+        "unit_price": "15.30",
+        "discount": "0.0",
+        "tax": "0.0"
+        }]
+    }
+}
+
+Products
+{
+"product_name": "bath towel",
+  "product_code": "54321",
+  "description": "soft towel",
+  "unit_price": "19.99",
+  "units_in_stock": "100",
+  "supplier": {
+    "supplier_id": "7",
+    "company_name": "Towel Emporium",
+    "phone": "+123456789",
+    "email": "info@towel-emporium.com",
+    "fax": "fax@towel-emporium.com"
+  },
+  "category":[{
+	"category_id":"2",
+	"category_name":"home",
+	"sub_category":"bathroom"
+	}]
+}
